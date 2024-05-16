@@ -24,7 +24,7 @@ const CreateCommunity = () => {
   >([]);
   const [editIndex, setEditIndex] = useState<number | null>(null);
 
-  const popupRef = useRef(null);
+  const popupRef = useRef<any>(null);
 
   const handleOpenPopup = () => {
     setPopupOpen(true);
